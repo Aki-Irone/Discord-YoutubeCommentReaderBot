@@ -19,17 +19,20 @@
 2. このコードの実行
 
 以降DiscordにてBotが立ち上がっているのを確認し、読み上げて欲しいボイスチャンネルに自分が入ります。
+<br>
 いづれのテキストチャットで問題ないので、
 ```txt
 /join youtube id
 ```
 
 を送信することで自分がいるボイスチャットに入ってきてくれます。
+<br>
 Youtube id は 配信URLの "="以降の文字列です。
 
 https://www.youtube.com/watch?v=Hogehoge の場合、Hogehoge がIDです。
 
 参加と同時に読み上げが始まります。
+<br>
 また、全てのコメントを取得し読み上げるため、すでにコメントが存在する場合はそのすべてのコメントの読み上げから始まります。
 
 読み上げを終える場合は
@@ -45,15 +48,15 @@ https://www.youtube.com/watch?v=Hogehoge の場合、Hogehoge がIDです。
 
 参考資料
 
-- [Python Discord Botのつくりかた] (https://qiita.com/shown_it/items/6e7fb7777f45008e0496)
+- [Python Discord Botのつくりかた](https://qiita.com/shown_it/items/6e7fb7777f45008e0496)
 
-- [Pythonで実用Discord Bot(discordpy解説)] (https://qiita.com/1ntegrale9/items/9d570ef8175cf178468f)
+- [Pythonで実用Discord Bot(discordpy解説)](https://qiita.com/1ntegrale9/items/9d570ef8175cf178468f)
 
-- [Discord.pyとGoogle Cloud Text-to-Speech APIで読み上げbotを作る] (https://my-pon.hatenablog.com/entry/2020/12/23/000000)
+- [Discord.pyとGoogle Cloud Text-to-Speech APIで読み上げbotを作る](https://my-pon.hatenablog.com/entry/2020/12/23/000000)
 
-- [discordでつくよみちゃんの読み上げbotを作ってみる Python] (https://zenn.dev/hotcocoa/articles/cdca580787c83f)
+- [discordでつくよみちゃんの読み上げbotを作ってみる Python](https://zenn.dev/hotcocoa/articles/cdca580787c83f)
 
-- [Pycord 読み上げBot開発] (https://qiita.com/KamakiriS/items/97b36b8fbc98fe695d3f)
+- [Pycord 読み上げBot開発](https://qiita.com/KamakiriS/items/97b36b8fbc98fe695d3f)
 
-- [Discord.py 公式リファレンス] (https://discordpy.readthedocs.io/ja/latest/#getting-started)
+- [Discord.py 公式リファレンス](https://discordpy.readthedocs.io/ja/latest/#getting-started)
 
