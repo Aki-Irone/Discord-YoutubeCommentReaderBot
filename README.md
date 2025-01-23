@@ -30,10 +30,12 @@ https://www.youtube.com/watch?v=Hogehoge の場合、Hogehoge がIDです。
 読み上げを終える場合は /leave で終了することができます。
 
 注意
+
 今回、コードの修正やチェックにGPT4oを利用しています。
 また、セキュリティ等については深く考慮していないため、私用は自己責任でお願いします。
 
 参考資料
+
 ・Python Discord Botのつくりかた [https://qiita.com/shown_it/items/6e7fb7777f45008e0496]
 ・Pythonで実用Discord Bot(discordpy解説) [https://qiita.com/1ntegrale9/items/9d570ef8175cf178468f]
 ・Discord.pyとGoogle Cloud Text-to-Speech APIで読み上げbotを作る [https://my-pon.hatenablog.com/entry/2020/12/23/000000]
